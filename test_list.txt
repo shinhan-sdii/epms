@@ -1,2 +1,0 @@
-PythonChess/CheckIsCheckmate.py
-PythonChess/test_checkmate.py
