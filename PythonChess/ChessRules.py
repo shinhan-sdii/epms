@@ -6,6 +6,7 @@
 	
  Copyright (C) 2009 Steve Osborne, srosborne (at) gmail.com
  http://yakinikuman.wordpress.com/
+ 20180828
  """
  
 class ChessRules:
