@@ -36,7 +36,7 @@ class CheckIsCheckmate(unittest.TestCase):
         mockGetListOfValidMoves.assert_any_call(cb.GetState(),"black",(1,6))
 
         # check the number of times your mocked method was called
-        self.assertEqual(mockGetListOfValidMoves.call_count,16)
+        self.assertEqual(mockGetListOfValidMoves.call_count,15)
  
         # DID YOU KNOW?
         # assert_any_call can be used to assert a method that was called at least once with some arguments        
