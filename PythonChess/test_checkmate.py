@@ -27,7 +27,7 @@ class CheckIsCheckmate(unittest.TestCase):
         expected_arg_calls = []
         for row in range(0,2):
             for col in range(0,8):
-                expected_arg_calls.append(mock.call(cb.GetState(), 'black', (row, col)))
+                expected_arg_calls.append(mock.call(cb.GetState(), 'white', (row, col)))
  
         # Assert that the mockGetListOfValidMoves.call_args_list matches expected_arg_calls
         self.assertEqual(mockGetListOfValidMoves.call_args_list, expected_arg_calls)
