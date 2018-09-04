@@ -7,7 +7,8 @@ URL : https://qxf2.com/blog/python-unit-checks/
 import unittest, mock
 import ChessRules 
 from ChessBoard import ChessBoard
-#test12345
+
+# PyChess test module
 class CheckIsCheckmate(unittest.TestCase):
     "Class to unit check the IsCheckmate method of ChessRules.py module"
     # creating a mock for GetListOfValidMoves
