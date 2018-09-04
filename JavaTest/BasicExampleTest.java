@@ -29,7 +29,7 @@ public class BasicExampleTest {
   @Test public void pipelineEcho() throws Exception {
     // Create a new Pipeline with the given (Scripted Pipeline) definition
     WorkflowJob project = j.createProject(WorkflowJob.class); 
-    project.setDefinition(new CpsFlowDefinition("node { echo 'hello' }", true)); 
+    project.setDefinition(new CpsFlowDefinition("node { echo 'hello world!' }", true)); 
 
     // Enqueue a build of the Pipeline, wait for it to complete, and assert success
     WorkflowRun build = j.buildAndAssertSuccess(project);
