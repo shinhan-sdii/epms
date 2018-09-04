@@ -8,7 +8,7 @@ import unittest, mock
 import ChessRules 
 from ChessBoard import ChessBoard
 
-# test module
+# hello world
 class CheckIsCheckmate(unittest.TestCase):
     "Class to unit check the IsCheckmate method of ChessRules.py module"
     # creating a mock for GetListOfValidMoves
